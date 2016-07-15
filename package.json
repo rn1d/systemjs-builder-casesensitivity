@@ -1,0 +1,24 @@
+{
+  "name": "systemjs-builder-casesensitivity",
+  "version": "1.0.0",
+  "description": "Repro project for demonstrating systemjs-builder case sensitivity issue",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "gulp"
+  },
+  "keywords": [
+    "systemjs-builder",
+    "issue"
+  ],
+  "author": "Ronald Zarits",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.6",
+    "systemjs-builder": "^0.15.23",
+    "typescript": "^1.8.10"
+  },
+  "dependencies": {
+    "moment": "^2.14.1"
+  }
+}
